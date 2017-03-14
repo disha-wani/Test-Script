@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" UAT Automation suite" duration-ms="0" started-at="2017-03-14T11:31:31Z" finished-at="2017-03-14T11:31:31Z">
+    <groups>
+    </groups>
+  </suite> <!--  UAT Automation suite -->
+  <suite name="TM_Project Suite" duration-ms="32" started-at="2017-03-14T11:31:30Z" finished-at="2017-03-14T11:31:30Z">
+    <groups>
+    </groups>
+    <test name="VerifyLogin" duration-ms="32" started-at="2017-03-14T11:31:30Z" finished-at="2017-03-14T11:31:30Z">
+      <class name="com.uat.TestCases.VerifyLoginFucntionality">
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@2abf4075]" name="verifyValidLogin" duration-ms="16" started-at="2017-03-14T17:01:30Z" data-provider="getTestData" finished-at="2017-03-14T17:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@2abf4075]" name="verifyValidLogin" duration-ms="0" started-at="2017-03-14T17:01:30Z" data-provider="getTestData" finished-at="2017-03-14T17:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.uat.TestCases.VerifyLoginFucntionality -->
+    </test> <!-- VerifyLogin -->
+  </suite> <!-- TM_Project Suite -->
+</testng-results>
